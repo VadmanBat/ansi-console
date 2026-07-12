@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.31)
 project(ansi-console VERSION 1.0 LANGUAGES CXX)
 
 add_library(ansi STATIC
-        src/color.cpp
-        src/print.cpp
-        src/read.cpp
-        src/cursor.cpp
-        src/clipboard.cpp
+        src/ansi/color.cpp
+        src/ansi/print.cpp
+        src/ansi/read.cpp
+        src/ansi/cursor.cpp
+        src/ansi/clipboard.cpp
 )
 
 target_include_directories(ansi PUBLIC
