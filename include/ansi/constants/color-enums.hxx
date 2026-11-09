@@ -1,5 +1,5 @@
 #pragma once
-// Created by Vadim 22.06.2026.
+// Created by Vadim on 22.06.2026.
 
 namespace ansi {
 enum class Color : int {
